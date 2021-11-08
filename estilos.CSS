@@ -1,0 +1,91 @@
+*{	margin: 0px;  padding: 0px;}
+@media(min-width: 1024px) and (max-width: 1920px)
+{
+#pagina { width:1000px; }
+}
+@media(min-width: 2560px)
+{
+#pagina {width: 2000px;}
+}
+@media(max-width: 800px)
+{
+#pagina { width:95%; }	
+}
+.estilo-pagina
+{
+	margin: auto; 
+	background: white;
+	-webkit-box-shadow: 7px 7px 9px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 9px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 9px -5px rgba(0,0,0,0.75);
+}
+
+body
+{
+	margin-top: 30px;
+	background: url('FOTOS/fondo.jpg');
+}
+.foto-grande
+{
+	width: 100%;
+}
+footer
+{
+	background: #0099cc;
+	padding: 11px;
+	font: bold 16px verdana;
+	text-align: center;
+	color: white;
+	clear: both;
+}
+
+header
+{
+	background: #ffcc66;
+}
+section
+{
+	padding:20px;
+}
+.contenedor
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.elemento66
+{
+	width: 66%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.elemento32
+{
+	width: 32%;
+	margin-bottom: 10px;
+	float: left;
+}
+.foto-borde
+{
+	border: 2px solid #09c;
+	width: 100%;
+}
+.texto
+{
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+	line-height: 23px;
+}
+.titulo
+{
+	color: #6E67A6;
+	text-align: center;
+	font-family: verdana;
+	font-size: 18px;
+	font-weight: bold;
+}
